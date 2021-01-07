@@ -1,0 +1,58 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/aviel/Desktop/sdk/Butterfly/Example/build/Debug-iphonesimulator/Butterfly/Butterfly.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Butterfly-Swift.h",
+          'external-contents': "/Users/aviel/Desktop/sdk/Butterfly/Example/build/Debug-iphonesimulator/Butterfly/Butterfly.framework/Headers/Butterfly-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Butterfly-umbrella.h",
+          'external-contents': "/Users/aviel/Desktop/sdk/Butterfly/Example/Pods/Target Support Files/Butterfly/Butterfly-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "ButterflyHostController.h",
+          'external-contents': "/Users/aviel/Desktop/sdk/Butterfly/Butterfly/Classes/sdk/Logic/ButterflyHostController.h"
+        },
+        {
+          'type': 'file',
+          'name': "InputFromUser.h",
+          'external-contents': "/Users/aviel/Desktop/sdk/Butterfly/Butterfly/Classes/sdk/UI/InputFromUser.h"
+        },
+        {
+          'type': 'file',
+          'name': "Reachability.h",
+          'external-contents': "/Users/aviel/Desktop/sdk/Butterfly/Butterfly/Classes/sdk/Logic/Reachability.h"
+        },
+        {
+          'type': 'file',
+          'name': "Report.h",
+          'external-contents': "/Users/aviel/Desktop/sdk/Butterfly/Butterfly/Classes/sdk/Logic/Report.h"
+        },
+        {
+          'type': 'file',
+          'name': "ToastMessage.h",
+          'external-contents': "/Users/aviel/Desktop/sdk/Butterfly/Butterfly/Classes/sdk/UI/ToastMessage.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/aviel/Desktop/sdk/Butterfly/Example/build/Debug-iphonesimulator/Butterfly/Butterfly.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/aviel/Desktop/sdk/Butterfly/Example/build/Pods.build/Debug-iphonesimulator/Butterfly.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

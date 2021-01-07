@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		121ADCFE069E4F340B6C4C078C32C98B /* Pods-Butterfly_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB83144B9B98B69DDB5A5E44BF08B0E /* Pods-Butterfly_Example-dummy.m */; };
+		2206ADC8FCCA7D0D898AC491B3615D3A /* Report.h in Headers */ = {isa = PBXBuildFile; fileRef = A86E52437A063829FA8F5187D8F54DCE /* Report.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3E8CCACD7C5160434BEDEBDDB0AF2CC8 /* InputFromUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 68EFE360A51EA712766A55FC0FD1E777 /* InputFromUser.m */; };
+		54B17120DACDAF1E74BEE3A48FE6F17D /* LaunchScreen.strings in Sources */ = {isa = PBXBuildFile; fileRef = 8BFCEC8BBC1AAE39449BB071C31E4322 /* LaunchScreen.strings */; };
+		5E5414FAFD667A52DEE21C5D0CF79E37 /* InputFromUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 71BF03591F92CC2F66175B731F5895DF /* InputFromUser.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		71AF71C58B00502C1D911AE70CB83BD3 /* Butterfly-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDB42DA0C3271F54C9806981331FF03 /* Butterfly-dummy.m */; };
+		73C0DBC6135EDE80C7B7522A46878215 /* ToastMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1C171E9E22552311A06DEA648C0D6B /* ToastMessage.m */; };
+		7671B970DC828A8CE910FA28FD4AC4DB /* ButterflyHostController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F00148A719F8D5923C58806DE30DC6 /* ButterflyHostController.m */; };
+		82240B99B9BF5D7F4DB1B83E76DA6351 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE4E606FBC64B2495E48FB0BDE408AF /* Reachability.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		833B0E278EEFEDA5F9A384ED1547C19F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DFA4FADE99DFFAB55FF9331770174180 /* Localizable.strings */; };
+		9823AF476C82518399F5A074088295D8 /* Report.m in Sources */ = {isa = PBXBuildFile; fileRef = 265B4BFF3318C2887208C99E94A8F55F /* Report.m */; };
+		AB0B7C9E0250BB187EB1F6295DCF3AFF /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = BF203BCC7C9DEA7DC042E43001D3615A /* Reachability.m */; };
+		B5C45811583DE9B6781C93BDA4DB044B /* ButterflyHostController.h in Headers */ = {isa = PBXBuildFile; fileRef = D5B0D33BE71A372D939323B641663983 /* ButterflyHostController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CF131BE67A9E48C425E4A2C1C5C0D0D1 /* ToastMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B38D06F028EA6E8CD40B629BE25AD41 /* ToastMessage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		146C1CFEA469115FCB1FCE1E86E08132 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1754FE8389346891AACA059723A6DF7F;
+			remoteInfo = "Butterfly-Butterfly";
+		};
+		2C7BF9CFB151A32430AAA41989B611C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2612E754AFFB0D1D2606CA22FE49659B;
+			remoteInfo = Butterfly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EE4E606FBC64B2495E48FB0BDE408AF /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		137013528CFAF0C0E002341384E372A4 /* Pods-Butterfly_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Butterfly_Example-frameworks.sh"; sourceTree = "<group>"; };
+		19DE66004864F4273F9155C0AFA50AF5 /* Pods-Butterfly_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Butterfly_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1BC065A5EEF2F227615536C1C1D4E30D /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = he.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1CB83144B9B98B69DDB5A5E44BF08B0E /* Pods-Butterfly_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Butterfly_Example-dummy.m"; sourceTree = "<group>"; };
+		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		265B4BFF3318C2887208C99E94A8F55F /* Report.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Report.m; sourceTree = "<group>"; };
+		2EDB42DA0C3271F54C9806981331FF03 /* Butterfly-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Butterfly-dummy.m"; sourceTree = "<group>"; };
+		331EDE97F9A7DFC299779008827A0897 /* libPods-Butterfly_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Butterfly_Example.a"; path = "libPods-Butterfly_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C906CFBA5FD2CD3AC090C269B0F0730 /* Pods-Butterfly_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Butterfly_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5B1C171E9E22552311A06DEA648C0D6B /* ToastMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ToastMessage.m; sourceTree = "<group>"; };
+		5F07C87B907B4253F917E2EB187444D5 /* libButterfly.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libButterfly.a; path = libButterfly.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		68EFE360A51EA712766A55FC0FD1E777 /* InputFromUser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = InputFromUser.m; sourceTree = "<group>"; };
+		6FE4021939752674BCBDE12068003051 /* Pods-Butterfly_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Butterfly_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		71BF03591F92CC2F66175B731F5895DF /* InputFromUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = InputFromUser.h; sourceTree = "<group>"; };
+		7FD53764B9D0A9614874E4B754B04720 /* Butterfly.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Butterfly.bundle; path = "Butterfly-Butterfly.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82C244BBF49EDACCEBCA90A8A4433AC2 /* Pods-Butterfly_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Butterfly_Example-resources.sh"; sourceTree = "<group>"; };
+		887317EDA0C586913AB8F6B33270550E /* Butterfly.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Butterfly.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8B38D06F028EA6E8CD40B629BE25AD41 /* ToastMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ToastMessage.h; sourceTree = "<group>"; };
+		8BFCEC8BBC1AAE39449BB071C31E4322 /* LaunchScreen.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = LaunchScreen.strings; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		8FADE7882D1CBC8CB5AD08BCF52D32F8 /* Butterfly.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Butterfly.xcconfig; sourceTree = "<group>"; };
+		A6659D409E921A381C607B4058B5823C /* ResourceBundle-Butterfly-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Butterfly-Info.plist"; sourceTree = "<group>"; };
+		A86E52437A063829FA8F5187D8F54DCE /* Report.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Report.h; sourceTree = "<group>"; };
+		B4F00148A719F8D5923C58806DE30DC6 /* ButterflyHostController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ButterflyHostController.m; sourceTree = "<group>"; };
+		BF203BCC7C9DEA7DC042E43001D3615A /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		C73645DF565C292CAD9CD5CB7F9E4521 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CB87532F07C7F604A56971FE40386737 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CEF630F7D27905F8B24F8648337CC37C /* Pods-Butterfly_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Butterfly_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D5B0D33BE71A372D939323B641663983 /* ButterflyHostController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ButterflyHostController.h; sourceTree = "<group>"; };
+		E2EC292168FF4DD70FBF22D24B1F173E /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F7DA3419BBC403A4CBF5805C8482CC0C /* Butterfly-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Butterfly-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56911FE735D0295C960CB8F717C7F970 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		619E2594E946413CEA61AEAEAAD8D3F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		807337C77D06E5DA3EA8BC6C4BECB299 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CC936D8F2383BB88B9AEA40835C31BC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				14FC676D2B5762A012594A716DCCB0C8 /* Butterfly */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		14FC676D2B5762A012594A716DCCB0C8 /* Butterfly */ = {
+			isa = PBXGroup;
+			children = (
+				E9C7A277F4CA6BFEEAF9750FBC0D3F44 /* Logic */,
+				477AE9C1D8475026936B05AB489677AB /* Pod */,
+				475DB89DDA708ED9AD8C61C2C8E93881 /* Resources */,
+				A2D254EE7DE5C1FC9A94D576DB45C345 /* Support Files */,
+				317ABB845316E595DB6538522C8B0C12 /* UI */,
+			);
+			name = Butterfly;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		317ABB845316E595DB6538522C8B0C12 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				71BF03591F92CC2F66175B731F5895DF /* InputFromUser.h */,
+				68EFE360A51EA712766A55FC0FD1E777 /* InputFromUser.m */,
+				9A8FABF246A0D68BC21E6C3A991813D5 /* LaunchScreen.strings */,
+				8B38D06F028EA6E8CD40B629BE25AD41 /* ToastMessage.h */,
+				5B1C171E9E22552311A06DEA648C0D6B /* ToastMessage.m */,
+			);
+			name = UI;
+			path = Butterfly/Classes/sdk/UI;
+			sourceTree = "<group>";
+		};
+		475DB89DDA708ED9AD8C61C2C8E93881 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DFA4FADE99DFFAB55FF9331770174180 /* Localizable.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		477AE9C1D8475026936B05AB489677AB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				887317EDA0C586913AB8F6B33270550E /* Butterfly.podspec */,
+				CB87532F07C7F604A56971FE40386737 /* LICENSE */,
+				C73645DF565C292CAD9CD5CB7F9E4521 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		597F0248AC99C51F525C1E4BCB1CB343 /* Pods-Butterfly_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4C906CFBA5FD2CD3AC090C269B0F0730 /* Pods-Butterfly_Example-acknowledgements.markdown */,
+				CEF630F7D27905F8B24F8648337CC37C /* Pods-Butterfly_Example-acknowledgements.plist */,
+				1CB83144B9B98B69DDB5A5E44BF08B0E /* Pods-Butterfly_Example-dummy.m */,
+				137013528CFAF0C0E002341384E372A4 /* Pods-Butterfly_Example-frameworks.sh */,
+				82C244BBF49EDACCEBCA90A8A4433AC2 /* Pods-Butterfly_Example-resources.sh */,
+				6FE4021939752674BCBDE12068003051 /* Pods-Butterfly_Example.debug.xcconfig */,
+				19DE66004864F4273F9155C0AFA50AF5 /* Pods-Butterfly_Example.release.xcconfig */,
+			);
+			name = "Pods-Butterfly_Example";
+			path = "Target Support Files/Pods-Butterfly_Example";
+			sourceTree = "<group>";
+		};
+		958B1BE2C9D7B59B1EA57A4D04DF11AD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				597F0248AC99C51F525C1E4BCB1CB343 /* Pods-Butterfly_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A2D254EE7DE5C1FC9A94D576DB45C345 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FADE7882D1CBC8CB5AD08BCF52D32F8 /* Butterfly.xcconfig */,
+				2EDB42DA0C3271F54C9806981331FF03 /* Butterfly-dummy.m */,
+				F7DA3419BBC403A4CBF5805C8482CC0C /* Butterfly-prefix.pch */,
+				A6659D409E921A381C607B4058B5823C /* ResourceBundle-Butterfly-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Butterfly";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				24390EFD555DD124430DFF9724065945 /* Podfile */,
+				0CC936D8F2383BB88B9AEA40835C31BC /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				F56BB5455F0A0E4ED3519ABA9453BD6C /* Products */,
+				958B1BE2C9D7B59B1EA57A4D04DF11AD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9C7A277F4CA6BFEEAF9750FBC0D3F44 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				D5B0D33BE71A372D939323B641663983 /* ButterflyHostController.h */,
+				B4F00148A719F8D5923C58806DE30DC6 /* ButterflyHostController.m */,
+				0EE4E606FBC64B2495E48FB0BDE408AF /* Reachability.h */,
+				BF203BCC7C9DEA7DC042E43001D3615A /* Reachability.m */,
+				A86E52437A063829FA8F5187D8F54DCE /* Report.h */,
+				265B4BFF3318C2887208C99E94A8F55F /* Report.m */,
+			);
+			name = Logic;
+			path = Butterfly/Classes/sdk/Logic;
+			sourceTree = "<group>";
+		};
+		F56BB5455F0A0E4ED3519ABA9453BD6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FD53764B9D0A9614874E4B754B04720 /* Butterfly.bundle */,
+				5F07C87B907B4253F917E2EB187444D5 /* libButterfly.a */,
+				331EDE97F9A7DFC299779008827A0897 /* libPods-Butterfly_Example.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		42DF096AD89E45CE565339F3FFD832F1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5C45811583DE9B6781C93BDA4DB044B /* ButterflyHostController.h in Headers */,
+				5E5414FAFD667A52DEE21C5D0CF79E37 /* InputFromUser.h in Headers */,
+				82240B99B9BF5D7F4DB1B83E76DA6351 /* Reachability.h in Headers */,
+				2206ADC8FCCA7D0D898AC491B3615D3A /* Report.h in Headers */,
+				CF131BE67A9E48C425E4A2C1C5C0D0D1 /* ToastMessage.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D58CD8F5A8FD055F3CA2C24D7DC205CB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1754FE8389346891AACA059723A6DF7F /* Butterfly-Butterfly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1565A46342CB35D167F8A095E6050AE /* Build configuration list for PBXNativeTarget "Butterfly-Butterfly" */;
+			buildPhases = (
+				3A6B66CC7767307D84597A4D2B6D2D30 /* Sources */,
+				619E2594E946413CEA61AEAEAAD8D3F8 /* Frameworks */,
+				25DCFE2B8594C65889D55C8255EE98D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Butterfly-Butterfly";
+			productName = "Butterfly-Butterfly";
+			productReference = 7FD53764B9D0A9614874E4B754B04720 /* Butterfly.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		2612E754AFFB0D1D2606CA22FE49659B /* Butterfly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C410DDEB709C6F92572A0E867CE541DF /* Build configuration list for PBXNativeTarget "Butterfly" */;
+			buildPhases = (
+				42DF096AD89E45CE565339F3FFD832F1 /* Headers */,
+				CE7B049CE59F4D11A13AB6583DF9D144 /* Sources */,
+				56911FE735D0295C960CB8F717C7F970 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56A11890D100CE7B15429BD97480214C /* PBXTargetDependency */,
+			);
+			name = Butterfly;
+			productName = Butterfly;
+			productReference = 5F07C87B907B4253F917E2EB187444D5 /* libButterfly.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6CF792F8AF8F112A5D8C61BB4DCF38DF /* Pods-Butterfly_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F254BAF1E0A5826CBE949B31C7CB0A0 /* Build configuration list for PBXNativeTarget "Pods-Butterfly_Example" */;
+			buildPhases = (
+				D58CD8F5A8FD055F3CA2C24D7DC205CB /* Headers */,
+				02E3AB2FCF27C77FE7F1A0A395184A61 /* Sources */,
+				807337C77D06E5DA3EA8BC6C4BECB299 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1E5AF987708F6722B399FA3851FC399 /* PBXTargetDependency */,
+			);
+			name = "Pods-Butterfly_Example";
+			productName = "Pods-Butterfly_Example";
+			productReference = 331EDE97F9A7DFC299779008827A0897 /* libPods-Butterfly_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F56BB5455F0A0E4ED3519ABA9453BD6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2612E754AFFB0D1D2606CA22FE49659B /* Butterfly */,
+				1754FE8389346891AACA059723A6DF7F /* Butterfly-Butterfly */,
+				6CF792F8AF8F112A5D8C61BB4DCF38DF /* Pods-Butterfly_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25DCFE2B8594C65889D55C8255EE98D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				833B0E278EEFEDA5F9A384ED1547C19F /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02E3AB2FCF27C77FE7F1A0A395184A61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				121ADCFE069E4F340B6C4C078C32C98B /* Pods-Butterfly_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A6B66CC7767307D84597A4D2B6D2D30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7B049CE59F4D11A13AB6583DF9D144 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71AF71C58B00502C1D911AE70CB83BD3 /* Butterfly-dummy.m in Sources */,
+				7671B970DC828A8CE910FA28FD4AC4DB /* ButterflyHostController.m in Sources */,
+				3E8CCACD7C5160434BEDEBDDB0AF2CC8 /* InputFromUser.m in Sources */,
+				54B17120DACDAF1E74BEE3A48FE6F17D /* LaunchScreen.strings in Sources */,
+				AB0B7C9E0250BB187EB1F6295DCF3AFF /* Reachability.m in Sources */,
+				9823AF476C82518399F5A074088295D8 /* Report.m in Sources */,
+				73C0DBC6135EDE80C7B7522A46878215 /* ToastMessage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56A11890D100CE7B15429BD97480214C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Butterfly-Butterfly";
+			target = 1754FE8389346891AACA059723A6DF7F /* Butterfly-Butterfly */;
+			targetProxy = 146C1CFEA469115FCB1FCE1E86E08132 /* PBXContainerItemProxy */;
+		};
+		F1E5AF987708F6722B399FA3851FC399 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Butterfly;
+			target = 2612E754AFFB0D1D2606CA22FE49659B /* Butterfly */;
+			targetProxy = 2C7BF9CFB151A32430AAA41989B611C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A8FABF246A0D68BC21E6C3A991813D5 /* LaunchScreen.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BFCEC8BBC1AAE39449BB071C31E4322 /* LaunchScreen.strings */,
+			);
+			name = LaunchScreen.strings;
+			path = .;
+			sourceTree = "<group>";
+		};
+		DFA4FADE99DFFAB55FF9331770174180 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2EC292168FF4DD70FBF22D24B1F173E /* Localizable.strings */,
+				1BC065A5EEF2F227615536C1C1D4E30D /* Localizable.strings */,
+			);
+			name = Localizable.strings;
+			path = Butterfly/Assets/resources;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		020A9DFB70B7D1A4566F12E316773BD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FADE7882D1CBC8CB5AD08BCF52D32F8 /* Butterfly.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Butterfly";
+				INFOPLIST_FILE = "Target Support Files/Butterfly/ResourceBundle-Butterfly-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = Butterfly;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		415AA23F11983F102FB76D2A69D3E23B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		420FE747EBE9161BCF272E1550D2AB24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FADE7882D1CBC8CB5AD08BCF52D32F8 /* Butterfly.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Butterfly";
+				INFOPLIST_FILE = "Target Support Files/Butterfly/ResourceBundle-Butterfly-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = Butterfly;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		46A32248F6609877E4E90783203AD84C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19DE66004864F4273F9155C0AFA50AF5 /* Pods-Butterfly_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DDAC8E40050148864A8A807AEB74ACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FADE7882D1CBC8CB5AD08BCF52D32F8 /* Butterfly.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Butterfly/Butterfly-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0E7DDE3BEB7CAF0C148D9E95B49B4AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FE4021939752674BCBDE12068003051 /* Pods-Butterfly_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C22BA0B6C2BAE3E66923E33220FD8800 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D4D5EDD8EB0677C5A13821CE524F7F4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FADE7882D1CBC8CB5AD08BCF52D32F8 /* Butterfly.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Butterfly/Butterfly-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				415AA23F11983F102FB76D2A69D3E23B /* Debug */,
+				C22BA0B6C2BAE3E66923E33220FD8800 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F254BAF1E0A5826CBE949B31C7CB0A0 /* Build configuration list for PBXNativeTarget "Pods-Butterfly_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0E7DDE3BEB7CAF0C148D9E95B49B4AE /* Debug */,
+				46A32248F6609877E4E90783203AD84C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C410DDEB709C6F92572A0E867CE541DF /* Build configuration list for PBXNativeTarget "Butterfly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4D5EDD8EB0677C5A13821CE524F7F4A /* Debug */,
+				4DDAC8E40050148864A8A807AEB74ACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1565A46342CB35D167F8A095E6050AE /* Build configuration list for PBXNativeTarget "Butterfly-Butterfly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				020A9DFB70B7D1A4566F12E316773BD2 /* Debug */,
+				420FE747EBE9161BCF272E1550D2AB24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
