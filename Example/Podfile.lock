@@ -1,0 +1,16 @@
+PODS:
+  - Butterfly (0.1.0)
+
+DEPENDENCIES:
+  - Butterfly (from `../`)
+
+EXTERNAL SOURCES:
+  Butterfly:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Butterfly: 5d9510cd5b1ec6fb0154ad702692724f73fc8932
+
+PODFILE CHECKSUM: a53cc865312af1df4a8d7cc812e88290c9da222d
+
+COCOAPODS: 1.4.0
